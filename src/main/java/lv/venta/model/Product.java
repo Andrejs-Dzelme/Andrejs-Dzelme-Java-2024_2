@@ -48,7 +48,7 @@ public class Product {
 	
 	@Min(0)
 	@Max(10000)
-	@Column(name = "Price (eur)")
+	@Column(name = "Price")
 	private float price;
 	
 	@Min(0)
